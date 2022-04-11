@@ -17,8 +17,7 @@ script:
   - mvn test
   - bash <(curl -s https://codecov.io/bash)
   - curl -Os https://uploader.codecov.io/latest/linux/codecov
-    chmod +x codecov
-    ./codecov
+  - chmod +x codecov ./codecov
 
 
 
